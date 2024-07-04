@@ -1,0 +1,545 @@
+\documentclass[
+    a4paper,
+    maincolor=cvblue!70!blue,
+    sidecolor=gray!30,
+    sectioncolor=cvblue!70!blue,
+    sidebarwidth=7.5cm,
+    topbottommargin=20pt,
+    leftrightmargin=20pt,
+]{fortysecondscv}
+
+% Spacing
+\usepackage{microtype}
+\usepackage{ragged2e}
+\usepackage{silence}
+\WarningFilter{latex}{Overfull \hbox}
+\WarningFilter{latex}{Underfull \hbox}
+\WarningFilter{latex}{Unused global option(s):}
+
+
+% Font
+\usepackage{fontspec}
+\setmainfont{montserrat}
+
+
+% -- Personal Information
+\cvname{Andrés Esteban\\[3mm] Merino Toapanta}
+\cvjobtitle{Mathematician\\[2mm] Full professor}
+\cvprofilepic{pics/aemerinot.jpg}
+\cvbirthday{October 18, 1990}
+\cvaddress{Mariscal Sucre, Quito - Ecuador}
+\cvphone{(+593) 98 975 1881}
+\cvmail{aemerinot@gmail.com}
+\cvmail{aemerinot@puce.edu.ec}
+\cvcustomdata{\faFlag}{Ecuadorian}
+
+% -- First Page
+\addtofrontsidebar{
+    \graphicspath{{pics/flags/}}
+
+    \profilesection{Online Profiles}
+        \social{\aiOrcidSquare}
+            {https://orcid.org/0000-0002-5404-918X}
+            {Orcid}
+        \social{\faGithub}
+            {https://github.com/andres-merino}
+            {Github}
+        \social{\faLinkedin}
+            {https://www.linkedin.com/in/andrés-merino-010a9b12b}
+            {LinkedIn}
+
+    \profilesection{Languages}
+        \pointskill{\flag{ES.png}}{Español}{5}
+        \pointskill{\flag{GB.png}}{English}{4}
+        \pointskill{\flag{FR.png}}{Française}{2}
+
+    \profilesection{Areas of Interest}
+        \skill{\faRebel}{Descriptive Set Theory}
+        \skill{\faRebel}{Foundations of Mathematics}
+        \skill{\faRebel}{Data Science}
+        \skill{\faRebel}{Machine Learning}
+        \skill{\faRebel}{Editing and Composition in \LaTeX}
+        \skill{\faRebel}{Mathematics Education}
+}
+
+
+% -- Second Page
+\addtobacksidebar{
+    \profilesection{About Me}
+    \aboutme{
+        I have dedicated my career to teaching and research. In the latter, I collaborate in the areas of Descriptive Set Theory, Foundations of Mathematics, Mathematics Education, and Data Science. I have contributed knowledge and advancements through publications in scientific journals and participation in national and international conferences. My contributions include studies on the Cantor-Bendixson Derivative, Machine Learning models for data and image analysis, and innovative techniques for teaching Mathematics.
+    }
+
+    \profilesection{Software}
+        \barskill{\faPenFancy}{LaTeX}{100}
+        \barskill{\faPencilRuler}{PSTricks}{100}
+        \barskill{\faRuler}{GeoGebra}{90}
+        \barskill{\faPython}{Python}{80}
+        \barskill{\faCalculator}{Mathematica}{60}
+        \barskill{\faFileImage}{Inkscape}{60}
+        \barskill{\faRProject}{R}{50}
+        \barskill{\faDatabase}{SQL}{40}
+        \barskill{\faGit*}{Git}{30}
+        \barskill{\faPencilRuler}{TikZ}{30}
+}
+
+% -- Document
+\begin{document}
+
+\makefrontsidebar
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvitem{feb-2024}
+    {Master's Degree in Data Science}
+    {Universitat Oberta de Catalunya}
+    {\hspace{0pt}\\[-1mm] Thesis: Automatic Image Recognition for Plant-Pollinator Network Reconstruction\\[-1.5mm]}
+
+\cvitem{mar-2017}
+    {Master's Degree in Pure and Applied Mathematics}
+    {Universidad Central del Ecuador}
+    {\hspace{0pt}\\[-1mm] Thesis: Classification of Countable Compact Subsets in some Polish Spaces}
+
+\cvitem{oct-2014}
+    {Master 1}
+    {Université Jean Monnet}
+    {Master Mathematiques 1}
+    
+\cvitem{oct-2014}
+    {Mathematician}
+    {Escuela Politécnica Nacional}
+    {Thesis: Classification of Countable Compact Subsets of the Reals\\ \textit{Summa Cum Laude}}
+    
+\cvitem{jul-2008}
+    {High School Diploma}
+    {Colegio Municipal Experimental ``Sebastián de Benalcázar''}
+    {Specialization in Physics and Mathematics}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Teaching Experience}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvitem{apr-2017}
+    {Full Professor}
+    {Pontificia Universidad Católica del Ecuador}
+    {Mathematics Professor in the Faculty of Exact and Natural Sciences (current full-time job: 7 years)}
+    
+\cvitem{apr-2021}
+    {Postgraduate Lecturer}
+    {Pontificia Universidad Católica del Ecuador}
+    {Lecturer in the Master's Degree in Experimental Sciences Education, major in Mathematics and Physics (part-time:~1~year and~6 months)}
+
+\cvitem{mar-2018}
+    {Lecturer}
+    {Escuela Politécnica Nacional}
+    {Mathematics Professor in the Department of Basic Education (half-time: 12 months)}
+
+\cvitem{oct-2014}
+    {Adjunct Professor}
+    {Escuela Politécnica Nacional}
+    {Mathematics Professor in the Faculty of Sciences (2 years and~5~months)}
+
+\cvitem{apr-2014}
+    {Teacher}
+    {Colegio Municipal ``Sebastián de Benalcazár''}
+    {Mathematics Teacher (4 months)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Professional Experience (Non-teaching)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvitem{apr-2021}
+    {Postgraduate Coordinator}
+    {Universidad Central del Ecuador}
+    {Coordinator of the Master's Degree in Pure and Applied Mathematics in the Faculty of Sciences (part-time: 1 year and 9 months)}
+
+\cvitem{jun-2019}
+    {Editor}
+    {Ministerio de Educación}
+    {Editor of Mathematics modules for the 10th year of Basic General Education in the National Curriculum Directorate (1 month)}
+
+\cvitem{feb-2018}
+    {Validator}
+    {Instituto Nacional de Evaluación Educativa (INEVAL)}
+    {Validation of item production 2018 in the Item Production and Safeguarding Directorate (2 months)}
+
+\cvitem{may-2015}
+    {Monitor}
+    {Instituto de Altos Estudios Nacionales (IAEN)}
+    {Monitor of the virtual Mathematics course in the Continuing Education Center (CEC-EP) (1 month)}
+
+\cvitem{oct-2012}
+    {Laboratory Assistant}
+    {Escuela Politécnica Nacional}
+    {Support in the seed research project "Flow over granular assemblies" (1 year)}
+
+\cvitem{dec-2011}
+    {Editing Assistant}
+    {Abya Yala, Revista La Granja}
+    {Layout, diagramming, and template design (3 years)}
+
+\cvitem{mar-2011}
+    {Laboratory Assistant}
+    {Escuela Politécnica Nacional}
+    {Editing in \LaTeX and support in classes of Single Variable Calculus and Foundations of Mathematics (1 year and 3 months)}
+
+\cvitem{aug-2010}
+    {Editing Assistant}
+    {Escuela Politécnica Nacional}
+    {Editing and publication of books and journals in the Faculty of Sciences Publications Unit (6 months)}
+
+\cvitem{nov-2010}
+    {Editing Assistant}
+    {Analítika, revista de análisis estadístico}
+    {Editing, diagramming, and layout. (3 years)}
+
+
+\makebacksidebar
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Appointments}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cventry{jul-2023}
+    {Coordinator of the School of Physical and Mathematical Sciences}
+    {Pontificia Universidad Católica del Ecuador, Faculty of Exact and Natural Sciences, School of Physical and Mathematical Sciences}
+    {Current Appointment}
+    
+\cventry{mar-2020}
+    {Coordinator of Virtual Classrooms}
+    {Pontificia Universidad Católica del Ecuador, Faculty of Exact and Natural Sciences, School of Physical and Mathematical Sciences}
+    {3 years}
+    
+\cventry{apr-2021}
+    {Coordinator of the Master's Degree in Pure and Applied Mathematics}
+    {Universidad Central del Ecuador, Faculty of Sciences}
+    {21 months}
+    
+\cventry{sep-2018}
+    {Coordinator of the Vector Calculus Course}
+    {Escuela Politécnica Nacional, Department of Basic Education}
+    {6 months}
+    
+\cventry{sep-2018}
+    {Coordinator of the Linear Algebra Course}
+    {Escuela Politécnica Nacional, Department of Basic Education}
+    {6 months}
+    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{University Courses Taught}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvitemshort{}{Single Variable Calculus}
+\cvitemshort{}{Vector Calculus}
+\cvitemshort{}{Mathematical Analysis I}
+\cvitemshort{}{Mathematical Analysis II}
+\cvitemshort{}{Calculus Supplements}
+\cvitemshort{}{Mathematical Logic and Set Theory}
+\cvitemshort{}{Real Analysis}
+\cvitemshort{}{Foundations of Mathematics}
+\cvitemshort{}{Ordinary Differential Equations}
+\cvitemshort{}{Differential Calculus}
+\cvitemshort{}{Integral Calculus}
+\cvitemshort{}{Linear Algebra}
+\cvitemshort{}{Fuzzy Logic}
+\cvitemshort{}{Discrete Mathematics}
+\cvitemshort{}{Mathematics for Graphic Design}
+\cvitemshort{}{Mathematics for Architecture}
+\cvitemshort{}{Discrete Structures I}
+\cvitemshort{}{Discrete Structures II}
+
+\newpage
+\newgeometry{
+    top=2cm,
+    bottom=2cm,
+    right=2cm,
+    left=2cm
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Courses and Conferences Delivered (last 5 years)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cventry{feb-2024}
+    {Presentation: Use of ChatGPT for Teaching Differential Calculus}
+    {MEM 2024}
+    {Universidad Antonio Nariño}
+    
+    
+\cventry{oct-2023}
+    {Presentation: Does ChatGPT Know How to Derive? An Experience in the Classroom}
+    {STEM Miami 2023 Seminar}
+    {Broward International University}
+    
+    
+\cventry{aug-2023}
+    {Minicourse: Reinforcement Learning}
+    {Summer School in Machine Learning 2023}
+    {Pontificia Universidad Católica del Ecuador (6 hours)}
+    
+    
+\cventry{jul-2023}
+    {Panel: Coordinators of Undergraduate and Postgraduate Programs in Data Science}
+    {I Meeting on Big Data and Artificial Intelligence Methods and Tools Applied to the Study of Social Phenomena in Ecuador}
+    {Flacso Ecuador}
+    
+\cventry{sep-2022}
+    {Presentation: Activity Guide for Mathematics Reinforcement Based on Gamification Directed at Upper Basic Level}
+    {II International Education Congress: Crisis, Creativity, and Educational Transformation}
+    {Pontificia Universidad Católica del Ecuador}
+    
+\cventry{feb-2022}
+    {Workshop: Innovative Didactics for Teaching and Learning Mathematics}
+    {}
+    {La Salle, Distrito Lasllista Norandino (30 hours)}
+    
+\cventry{nov-2021}
+    {Video Presentation: Designing Fonts through Bézier Curves and GeoGebra}
+    {VIII International Workshop "Trends in Mathematics Education Based on Research in Alliance with the GeoGebra Latin American Community"}
+    {Benemérita Universidad Autónoma de Puebla}
+    
+
+\cventry{sep- 2021}
+    {Course: Intermediate Level GeoGebra Software Management}
+    {}
+    {Universidad Regional Amazónica Ikiam (10 hours)}
+    
+\cventry{dec-2020}
+    {Conference: A Generalization of the Cantor Ternary Set}
+    {II Ecuadorian Mathematics Days}
+    {Universidad Universidad Técnica de Manabí}
+    
+
+\cventry{dec-2020}
+    {Conference: Equivalence of the Axiom of Choice with the Function Redefinition Problem}
+    {II Ecuadorian Mathematics Days}
+    {Universidad Universidad Técnica de Manabí}
+    
+\cventry{dec-2020}
+    {Conference: Ruled Surfaces in GeoGebra as a Link between Mathematics and Architecture}
+    {II Ecuadorian GeoGebra Day}
+    {Universidad Nacional de Educación}
+    
+
+\cventry{feb-2020}
+    {Course: Technological Tools for Teaching Mathematics}
+    {}
+    {Pontificia Universidad Católica del Ecuador (40 hours)}
+    
+
+\cventry{oct-2019}
+    {Course: Development of Thinking Based on Solving Mathematical Problems}
+    {}
+    {Universidad Técnica del Norte (40 hours)}
+    
+\cventry{aug-2019}
+    {Conference: Creating Animations in GeoGebra to Motivate the Study of Analytical Geometry}
+    {I Ecuadorian GeoGebra Day}
+    {Universidad Nacional de Educación}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Conferences Attended (last 5 years)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cventry{sep-2022}
+    {II International Education Congress: Crisis, Creativity, and Educational Transformation}
+    {Pontificia Universidad Católica del Ecuador}
+    {Quito-Ecuador (40 hours)}
+
+\cventry{jun-2022}
+    {I International Symposium on Physics and Mathematics}
+    {Pontificia Universidad Católica del Ecuador}
+    {Quito-Ecuador (10 hours)}
+
+\cventry{feb-2022}
+    {XII Symposium on Mathematics and Mathematics Education, XI International Congress on Mathematics Assisted by Computer (MEM2022)}
+    {Universidad Antonio Nariño}
+    {Bogotá-Colombia (20 hours)}
+
+\cventry{jan-2022}
+    {Applied Data Science Research Congress – II National Congress of R Users Group}
+    {Escuela Politécnica Nacional}
+    {Quito-Ecuador (34 hours)}
+
+\cventry{nov-2021}
+    {VIII International Workshop "Trends in Mathematics Education Based on Research in Alliance with the GeoGebra Latin American Community"}
+    {Benemérita Universidad Autónoma de Puebla}
+    {Puebla-Mexico (10 hours)}
+
+\cventry{may-2019}
+    {I Ecuadorian GeoGebra Day}
+    {Universidad Nacional de Educación}
+    {Azogues-Ecuador (20 hours)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Teacher Training Courses (last 5 years)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cventry{feb-2024}
+    {AI to Improve the Teaching and Learning Process}
+    {IDEA-USFQ}
+    {Quito-Ecuador (6 hours)}
+
+\cventry{jul-2023}
+    {Artificial Intelligence Applied to Education}
+    {Universidad Israel}
+    {Quito-Ecuador (80 hours)}
+
+\cventry{jul-2022}
+    {PUCE INNOVA: Towards a University Pedagogical Transformation}
+    {Reimagine Education}
+    {Barcelona-Spain (16 hours)}
+
+\cventry{dec-2021}
+    {Concept and Development of a Prototype for Educational Transformation Using the RIEDUSIS Methodology}
+    {Reimagine Education}
+    {Barcelona-Spain (65 hours)}
+
+\cventry{oct-2021}
+    {Certification in Neuroscience and Education Applied to Teaching}
+    {Pontificia Universidad Católica del Ecuador}
+    {Quito-Ecuador (50 hours)}
+
+\cventry{apr-2021}
+    {Creating Self-Evaluative Activities with GeoGebra}
+    {Instituto GeoGebra Extremeño}
+    {Mérida-Spain (30 hours)}
+
+\cventry{feb-2021}
+    {Advanced Course for Virtual Classroom Management}
+    {Pontificia Universidad Católica del Ecuador}
+    {Quito-Ecuador (24 hours)}
+
+\cventry{aug-2020}
+    {Certification in Teaching in Virtual Learning Environments}
+    {Pontificia Universidad Católica del Ecuador}
+    {Quito-Ecuador (120 hours)}
+
+\cventry{may-2020}
+    {Creating Teaching and Learning Environments with Google Classroom}
+    {Escuela Politécnica Nacional}
+    {Quito-Ecuador (48 hours)}
+
+\cventry{jul-2019}
+    {Moodle 3.5}
+    {Pontificia Universidad Católica del Ecuador}
+    {Quito-Ecuador (40 hours)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Other Training Courses (last 5 years)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cventry{nov-2022}
+    {Amazon Web Service for Data Science}
+    {SDC Learning}
+    {Lima-Peru (64 hours)}
+
+\cventry{mar-2021}
+    {Machine Learning with Python}
+    {Universidad Peruana Cayetano Heredia}
+    {Lima-Peru (32 hours)}
+
+\cventry{may-2020}
+    {Office 365 Tools}
+    {Escuela Politécnica Nacional}
+    {Quito-Ecuador (64 hours)}
+
+\cventry{jun-2019}
+    {PUCE Peer Evaluators}
+    {Quito-Ecuador}
+    {Pontificia Universidad Católica del Ecuador (40 hours)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Publications}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvpubitem{dec-2023}
+    {Scientific Article}
+    {Merino, A. and Heredia, S. (2023). Relationship of the Cantor-Bendixson Derivative with Set Algebra. Selecciones Matemáticas, 10(2), 339-351.}
+    {\url{https://doi.org/10.17268/sel.mat.2023.02.10}}
+    {Area: Descriptive Set Theory}
+    
+\cvpubitem{jan-2023}
+    {Scientific Article}
+    {Jiménez, S. and Merino, A. (2023). Machine Learning Models Based on CRISP-DM for the Analysis of Depression Levels in Students of the Escuela Politécnica Nacional. Latin-American Journal of Computing, 10(1), 22-43.}     
+    {\url{https://lajc.epn.edu.ec/index.php/LAJC/article/view/335}}
+    {Area: Data Science}
+    
+\cvpubitem{aug-2022}
+    {Scientific Article}
+    {Merino, A., Cueva, M., Sarmiento, M., and Paredes, A. (2022). Analysis of the Concepts of Variable and Constant in Students of the Unified General Baccalaureate of Ecuador. 593 Digital Publisher CEIT, 7(4-2), 175-185.}     
+    {\url{https://doi.org/10.33386/593dp.2022.4-2.970}}
+    {Area: Mathematics Education}
+    
+\cvpubitem{jun-2021}
+    {Scientific Article}
+    {Merino, A. and Ortiz-Castro, J. (2021). Continuity of Functions Based on Rearrangements of $\beta$-Expansions of a Number. Digital Journal of Mathematics, Education, and Internet, 22(1).}     
+    {\url{https://doi.org/10.18845/rdmei.v22i1.5758}}
+    {Area: Real Analysis}
+    
+\cvpubitem{feb-2021}
+    {Scientific Article}
+    {Álvarez-Samaniego, B. and Merino, A. (2021). Some Properties Related to the Cantor-Bendixson Derivative on a Polish Space. New Zealand Journal of Mathematics, 50, 207-218.}     {\url{http://dx.doi.org/10.17268/sel.mat.2020.02.04}}
+    {Area: Descriptive Set Theory}
+    
+\cvpubitem{dec-2020}
+    {Scientific Article}
+    {Merino, A. and Heredia, S. (2020). A Generalization of the Cantor Ternary Set. Selecciones Matemáticas, 7(2), 222-233.}     {\url{http://dx.doi.org/10.17268/sel.mat.2020.02.04}}
+    {Area: Real Analysis}
+    
+\cvpubitem{may-2020}
+    {Scientific Article}
+    {Merino, A. and Trujillo, J. C. (2020). Equivalence of the Axiom of Choice with the Function Redefinition Problem. Revista Politécnica, 45(2), 51-56.}     
+    {\url{https://doi.org/10.33333/rp.vol45n2.05}}
+    {Area: Foundations of Mathematics}
+    
+\cvpubitem{nov-2019}
+    {Scientific Article}
+    {Álvarez-Samaniego, B. and Merino, A. (2019). Countable Ordinal Spaces and Compact Countable Subsets of a Metric Space. Australian Journal of Mathematical Analysis and Applications, 16(2), article 12.}
+    {}
+    {Area: Descriptive Set Theory}
+    
+\cvpubitem{jun-2019}
+    {Scientific Article}
+    {Ortiz, J. and Merino, A. (2019). Schematic Representation of the Set Classification Problem. The Classification of the Quadratic Equation of Two Variables. Mathematics ESPOL-FCNM JOURNAL, 17(1), 1-14.}
+    {}
+    {Area: Mathematics Education}
+    
+\cvpubitem{sep-2016}
+    {Scientific Article}
+    {Álvarez-Samaniego, B. and Merino, A. (2019). A Primitive Associated to the Cantor-Bendixson Derivative on the Real Line. Journal of Mathematical Sciences: Advances and Applications 41 (1).}     
+    {\url{http://dx.doi.org/10.18642/jmsaa_7100121692}}
+    {Area: Descriptive Set Theory}
+    
+\cvpubitem{junio 2012}
+    {Booklet}
+    {Merino, A., Cueva, E. and Trujillo J.C. (2012). Single Variable Calculus: Summary and Solved Exercises. Publications Unit of the Faculty of Sciences.}
+    {}
+    {Area: Mathematics Education}
+    
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Awards and Scholarships}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cventry{dec-2023}
+    {Gratitude Button}
+    {Asociación de Profesores de la Pontificia Universidad Católica del Ecuador}
+    {}
+
+\cventry{jul-2021}
+    {UOC Scholarship for Outstanding Students from Ecuador}
+    {Universitat Oberta de Catalunya}
+    {}
+    
+\cventry{dec-2017}
+    {Municipal Award Pedro Vicente Maldonado for the Best Published Work in the Area of Exact Sciences in 2017}
+    {Municipio del Distrito Metropolitano de Quito}
+    {Work: A Primitive Associated to the Cantor Bendixson Derivative on the Real Line}
+    
+
+\cvsignature[Update to]{April 1, 2024}
+
+\end{document}
