@@ -13,7 +13,7 @@
   <p align="center">
     Mi hoja de vida con perfil profesional y académico.
     <br />
-    <a href="https://github.com/andres-merino/CV/issues">Reportar un Problema</a>
+    <a href="https://github.com/andres-merino/Hoja-de-Vida-Andres-Merino/issues">Reportar un Problema</a>
       <br />
     Ver en 
     <br />
@@ -45,15 +45,15 @@ Este repositorio contiene mi hoja de vida.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/andres-merino/CV.svg?style=for-the-badge
-[contributors-url]: https://github.com/andres-merino/CV/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/andres-merino/CV.svg?style=for-the-badge
-[forks-url]: https://github.com/andres-merino/CV/forks
-[stars-shield]: https://img.shields.io/github/stars/andres-merino/CV?style=for-the-badge
-[stars-url]: https://github.com/andres-merino/CV/stargazers
-[issues-shield]: https://img.shields.io/github/issues/andres-merino/CV.svg?style=for-the-badge
-[issues-url]: https://github.com/andres-merino/CV/issues
-[license-shield]: https://img.shields.io/github/license/andres-merino/CV.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/andres-merino/Hoja-de-Vida-Andres-Merino.svg?style=for-the-badge
+[contributors-url]: https://github.com/andres-merino/Hoja-de-Vida-Andres-Merino/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/andres-merino/Hoja-de-Vida-Andres-Merino.svg?style=for-the-badge
+[forks-url]: https://github.com/andres-merino/Hoja-de-Vida-Andres-Merino/forks
+[stars-shield]: https://img.shields.io/github/stars/andres-merino/Hoja-de-Vida-Andres-Merino?style=for-the-badge
+[stars-url]: https://github.com/andres-merino/Hoja-de-Vida-Andres-Merino/stargazers
+[issues-shield]: https://img.shields.io/github/issues/andres-merino/Hoja-de-Vida-Andres-Merino.svg?style=for-the-badge
+[issues-url]: https://github.com/andres-merino/Hoja-de-Vida-Andres-Merino/issues
+[license-shield]: https://img.shields.io/github/license/andres-merino/Hoja-de-Vida-Andres-Merino.svg?style=for-the-badge
 [license-url]: https://es.wikipedia.org/wiki/Licencia_MIT
 [linkedin-shield]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url-aemt]: https://www.linkedin.com/in/andrés-merino-010a9b12b/
