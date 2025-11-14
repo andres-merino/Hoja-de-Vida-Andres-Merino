@@ -68,3 +68,4 @@ Este repositorio contiene mi hoja de vida.
 [LaTeX]: https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=fff&style=for-the-badge
 [LaTeX-url]: https://www.latex-project.org/
 [GitHubActions]: https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=fff&style=for-the-badge
+[GitHubActions-url]: https://github.com/features/actions
