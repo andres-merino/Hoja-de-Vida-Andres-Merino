@@ -24,7 +24,6 @@
     <a href="https://andres-merino.github.io/Hoja-de-Vida-Andres-Merino/CV-AndresMerino-es.pdf">
       <img src="https://img.shields.io/badge/PDF-ESPAÑOL-blue?style=for-the-badge&logo=adobeacrobatreader" alt="PDF ES">
     </a>
-
     <a href="https://andres-merino.github.io/Hoja-de-Vida-Andres-Merino/CV-AndresMerino-en.pdf">
       <img src="https://img.shields.io/badge/PDF-ENGLISH-red?style=for-the-badge&logo=adobeacrobatreader" alt="PDF EN">
     </a>
@@ -68,3 +67,4 @@ Este repositorio contiene mi hoja de vida.
 [linkedin-url-aemt]: https://www.linkedin.com/in/andrés-merino-010a9b12b/
 [LaTeX]: https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=fff&style=for-the-badge
 [LaTeX-url]: https://www.latex-project.org/
+[GitHubActions]: https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=fff&style=for-the-badge
