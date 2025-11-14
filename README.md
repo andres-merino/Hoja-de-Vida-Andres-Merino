@@ -20,6 +20,14 @@
     <a href="https://www.overleaf.com/read/fwpmgqkpsxhj#d3fc50">
     <img src="https://img.shields.io/badge/Overleaf-47A141?logo=overleaf&logoColor=fff&style=for-the-badge" alt="Overleaf Badge">
     </a>
+    <!-- Botones PDF -->
+    <a href="https://andres-merino.github.io/Hoja-de-Vida-Andres-Merino/CV-AndresMerino-es.pdf">
+      <img src="https://img.shields.io/badge/PDF-ESPAÑOL-blue?style=for-the-badge&logo=adobeacrobatreader" alt="PDF ES">
+    </a>
+
+    <a href="https://andres-merino.github.io/Hoja-de-Vida-Andres-Merino/CV-AndresMerino-en.pdf">
+      <img src="https://img.shields.io/badge/PDF-ENGLISH-red?style=for-the-badge&logo=adobeacrobatreader" alt="PDF EN">
+    </a>
   </p>
   </p>
 </div>
@@ -32,6 +40,7 @@ Este repositorio contiene mi hoja de vida.
 ### Construido con
 
 [![LaTeX][LaTeX]][LaTeX-url]
+[![GitHub Actions][GitHubActions]][GitHubActions-url]
 
 
 ## Créditos
