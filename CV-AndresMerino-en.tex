@@ -15,7 +15,7 @@
 \WarningFilter{latex}{Overfull \hbox}
 \WarningFilter{latex}{Underfull \hbox}
 \WarningFilter{latex}{Unused global option(s):}
-
+\usepackage{qrcode}
 
 % Font
 \usepackage{fontspec}
@@ -38,15 +38,28 @@
     \graphicspath{{pics/flags/}}
 
 	\profilesection{Online Profiles}
-        \social{\faOrcid}
-            {https://orcid.org/0000-0002-5404-918X}
-            {Orcid} 
-        \social{\faGithub}
-            {https://github.com/andres-merino}
-            {Github}
-        \social{\faLinkedin}
-            {https://www.linkedin.com/in/andres-merino-t}
-            {LinkedIn}
+        \begin{center}
+        \begin{minipage}{0.22\textwidth}\centering
+            \social{\faOrcid}
+                {https://orcid.org/0000-0002-5404-918X}
+                {Orcid}\\[2mm]
+        
+            \social{\faGithub}
+                {https://github.com/andres-merino}
+                {Github}\\[2mm]
+        
+            \social{\faLinkedin}
+                {https://www.linkedin.com/in/andres-merino-t}
+                {LinkedIn}
+        \end{minipage}
+        \hspace{4mm}
+        \begin{minipage}{0.65\textwidth}
+            \centering
+            \color{cvblue!70!blue}
+            \qrcode[height=3.5cm]{https://linktr.ee/aemerinot}\\[2mm]
+            \color{black}\href{https://linktr.ee/aemerinot}{linktr.ee/aemerinot}
+        \end{minipage}
+        \end{center}
 
     \profilesection{Languages}
         \pointskill{\flag{ES.png}}{Español}{5}
@@ -322,21 +335,21 @@
     {}
     {Universidad Regional Amazónica Ikiam (10 hours)}
     
-\cventry{dec-2020}
-    {Conference: A Generalization of the Cantor Ternary Set}
-    {II Ecuadorian Mathematics Days}
-    {Universidad Universidad Técnica de Manabí}
+% \cventry{dec-2020}
+%     {Conference: A Generalization of the Cantor Ternary Set}
+%     {II Ecuadorian Mathematics Days}
+%     {Universidad Universidad Técnica de Manabí}
     
 
-\cventry{dec-2020}
-    {Conference: Equivalence of the Axiom of Choice with the Function Redefinition Problem}
-    {II Ecuadorian Mathematics Days}
-    {Universidad Universidad Técnica de Manabí}
+% \cventry{dec-2020}
+%     {Conference: Equivalence of the Axiom of Choice with the Function Redefinition Problem}
+%     {II Ecuadorian Mathematics Days}
+%     {Universidad Universidad Técnica de Manabí}
     
-\cventry{dec-2020}
-    {Conference: Ruled Surfaces in GeoGebra as a Link between Mathematics and Architecture}
-    {II Ecuadorian GeoGebra Day}
-    {Universidad Nacional de Educación}
+% \cventry{dec-2020}
+%     {Conference: Ruled Surfaces in GeoGebra as a Link between Mathematics and Architecture}
+%     {II Ecuadorian GeoGebra Day}
+%     {Universidad Nacional de Educación}
     
 
 % \cventry{feb-2020}
@@ -481,6 +494,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \cvsection{Other Training Courses (last 5 years)}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cventry{ene-2026}
+    {Application of topological data analysis}
+    {Sociedad Ecuatoriana de Estadística}
+    {Ecuador (20 hours)}
 
 \cventry{nov-2025}
     {Agentic AI}
@@ -632,6 +649,6 @@
     {Work: A Primitive Associated to the Cantor Bendixson Derivative on the Real Line}
     
 
-\cvsignature[Update to]{December 19, 2025}
+\cvsignature[Update to]{February 26, 2026}
 
 \end{document}

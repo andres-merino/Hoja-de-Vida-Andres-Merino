@@ -17,7 +17,7 @@
 \WarningFilter{latex}{Overfull \hbox}
 \WarningFilter{latex}{Underfull \hbox}
 \WarningFilter{latex}{Unused global option(s):}
-
+\usepackage{qrcode}
 
 % Fuente Hola
 \usepackage{fontspec}
@@ -40,16 +40,29 @@
 	\graphicspath{{pics/flags/}}
 
 	\profilesection{Perfiles en línea}
-        \social{\faOrcid}
-            {https://orcid.org/0000-0002-5404-918X}
-            {Orcid} 
-        \social{\faGithub}
-            {https://github.com/andres-merino}
-            {Github}
-        \social{\faLinkedin}
-            {https://www.linkedin.com/in/andres-merino-t}
-            {LinkedIn}
-
+        \begin{center}
+        \begin{minipage}{0.22\textwidth}\centering
+            \social{\faOrcid}
+                {https://orcid.org/0000-0002-5404-918X}
+                {Orcid}\\[2mm]
+        
+            \social{\faGithub}
+                {https://github.com/andres-merino}
+                {Github}\\[2mm]
+        
+            \social{\faLinkedin}
+                {https://www.linkedin.com/in/andres-merino-t}
+                {LinkedIn}
+        \end{minipage}
+        \hspace{4mm}
+        \begin{minipage}{0.65\textwidth}
+            \centering
+            \color{cvblue!70!blue}
+            \qrcode[height=3.5cm]{https://linktr.ee/aemerinot}\\[2mm]
+            \color{black}\href{https://linktr.ee/aemerinot}{linktr.ee/aemerinot}
+        \end{minipage}
+        \end{center}
+        
 	\profilesection{Idiomas}
 		\pointskill{\flag{ES.png}}{Español}{5}
     	\pointskill{\flag{GB.png}}{English}{4}
@@ -326,21 +339,21 @@
     {}
     {Universidad Regional Amazónica Ikiam (10 horas)}
     
-\cventry{dic-2020}
-    {Conferencia: Una generalización del conjunto ternario de Cantor}
-    {II Jornadas Ecuatorianas de Matemáticas}
-    {Universidad Universidad Técnica de Manabí}
+% \cventry{dic-2020}
+%     {Conferencia: Una generalización del conjunto ternario de Cantor}
+%     {II Jornadas Ecuatorianas de Matemáticas}
+%     {Universidad Universidad Técnica de Manabí}
     
 
-\cventry{dic-2020}
-    {Conferencia: Equivalencia del Axioma de Elección con el problema de redefinición de funciones}
-    {II Jornadas Ecuatorianas de Matemáticas}
-    {Universidad Universidad Técnica de Manabí}
+% \cventry{dic-2020}
+%     {Conferencia: Equivalencia del Axioma de Elección con el problema de redefinición de funciones}
+%     {II Jornadas Ecuatorianas de Matemáticas}
+%     {Universidad Universidad Técnica de Manabí}
     
-\cventry{dic-2020}
-    {Conferencia: Superficies regladas en GeoGebra como vínculo entre la Matemática y la Arquitectura}
-    {II Jornada Ecuatoriana de GeoGebra}
-    {Universidad Nacional de Educación}
+% \cventry{dic-2020}
+%     {Conferencia: Superficies regladas en GeoGebra como vínculo entre la Matemática y la Arquitectura}
+%     {II Jornada Ecuatoriana de GeoGebra}
+%     {Universidad Nacional de Educación}
     
 
 % \cventry{feb-2020}
@@ -484,6 +497,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \cvsection{Otros cursos de capacitación (últimos 5 años)}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cventry{ene-2026}
+    {Aplicación del análisis topológico de datos}
+    {Sociedad Ecuatoriana de Estadística}
+    {Ecuador (20 horas)}
 
 \cventry{nov-2025}
     {Agentic AI}
@@ -633,7 +651,7 @@
     {Obra: A primitive associated to the Cantor Bendixson derivate in the real line}
     
 
-\cvsignature{19 de diciembre de 2025}
+\cvsignature{26 de febrero de 2026}
 
 \end{document}
 
